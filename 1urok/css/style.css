@@ -1,0 +1,47 @@
+.red2{
+    background-color: brown;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+}
+.red3{
+    color:burlywood;
+    font-style: unset;
+    font-stretch: extra-expanded;
+    text-align: end;
+
+
+}
+.red4{
+    color: teal;
+    text-align:start ;
+
+}
+.str{
+    display: block;
+    background-color:tomato ;
+    width: 500px;
+    
+}
+.Korobka{
+   display: inline;
+}
+ 
+.margin{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.parent{
+    width: 1000px;
+}
+
+.parent > div{
+    color: red;
+} 
+ul > li{
+    color: red
+}
+ 

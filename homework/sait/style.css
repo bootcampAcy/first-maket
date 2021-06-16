@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapp{
+    margin: 0 110px;
+}
+.background_img{
+    background-image: url("../images/background.png");
+    height: 700px;
+    color: #FFFFFF;
+}
+.container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.header_list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header_list>li{
+    margin-right: 40px;
+}
+.header_list > li:last-child{
+    margin-right: 0;
+}
+.header_number > div{
+    margin-top: 10px;
+}
+.header__under{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header___under-tittle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 52px;
+}
+.button_catolog{
+    padding:10px 15px;
+    margin-top: 10px;
+    width: 170px;
+    height: 20px;
+    background: #2F76F0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+
+}
+.search{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    display: flex;
+    margin: 0 50px ;
+}
+.input_search{
+    width: 250px;
+    height: 35px;
+}
+.search_button{
+    padding: 9px 0 9px 20px ;
+    background: #2F76F0;
+    width: 120px;
+    height: 20px;
+}
+.search_button > img{
+    margin-right: 10px;
+}
+.services__top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+  }
+  
+  .services__top-text {
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .services__top-title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  
+  .services__top-title span {
+    color: #2f76f0;
+  }
+  
+  .services__top-desc {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.5;
+  }
+  
+  .services__top-info {
+    max-width: 630px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .services__info-left {
+    max-width: 227px;
+    width: 100%;
+  }
+  
+  .star {
+    background-image: url("../images/star.svg");
+    width: 57px;
+    height: 48px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .prices {
+    display: flex;
+    align-items: center;
+    color: #2f76f0;
+    margin-bottom: 44px;
+  }
+  
+  .bus {
+    background-image: url("../images/bus.svg");
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 48px;
+    display: inline-block;
+    margin-right: 33px;
+  }
+  
+  .insurance {
+    display: flex;
+    align-items: center;
+    color: #2f76f0;
+  }
+  
+  .services__info-right {
+    max-width: 310px;
+    width: 100%;
+  }
+  

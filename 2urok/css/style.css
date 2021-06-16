@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+header{
+    background-color:black;
+    color:white;
+}
+
+.container{
+    margin: 0 12%;
+    display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: white;
+}
+a:hover{
+    color: orange   ;
+    transition: 300ms;
+    transform: scale(1.1);
+}
+.logo{
+    width: 80px;
+    height: 80;
+    border-radius: 100%;
+}
+.header_list{
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+.header_list>li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header_list>li:hover{
+    color: orange   ;
+    transition: 300ms;
+    transform: scale(1.2);
+}

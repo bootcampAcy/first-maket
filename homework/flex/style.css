@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container > div{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
+.box2 > div {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}
+.box3{
+    display: flex;
+    justify-content: space-around;
+}
+.box3 > div {
+    background-color:blue ;
+    width: 150px;
+    height: 150px;
+}
+.box4{
+    display: flex;
+    justify-content: space-around;
+}
+.box4 > div {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+header{
+    background-image: url("../images/bg\ image.png");
+    height: 852px;
+}
+main{
+    background: #000000;
+}
+.header_container{
+    padding: 23px 40px;
+}
+.header_boxtop{
+    display: flex;
+    justify-content: space-between;     
+}
+.header_explore{
+    margin-top: 334px;
+    font-size: 150px;
+    text-align: center;
+}
+.header_travel{
+    font-size: 28px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+.main_tittle{
+    font-size: 40px;
+    font-weight: 500px;
+    font-style: normal;
+}
+.main_bottom_tittle{
+    width: 348px;
+    height: 286px;
+}
+.main_images{
+    display:flex;
+}
+.main_box_img2{
+    margin-right: 25px;
+    flex-direction: column;
+    display: flex;
+}
+.main_images > .main_box_img2 :last-child{
+    margin-top: 22px;
+}
+.people{
+    width: 326px;
+    height: 457px;
+}
+.foooter{
+    flex-direction: column;
+    text-align: center;
+    background-image: url(../images/bg\ 2.png);
+}
+.subscribe{
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 92px;
+}
+.under_sub{
+    margin-left: auto;
+    margin-right: auto;
+    width: 721px;
+    height: 110px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    left: 359px;
+    top: 175px;
+}
+.email{
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 123px;
+    height: 22px;
+    left: 658px;
+    top: 385px;
+}
+.rectangle{
+    margin-right: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    
+}
+.button{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    width: 335px;
+    height: 64px;
+    display: flex;
+}
+.Subs{
+    width: 105px;
+    height: 22px;
+    left: 667px;
+    top: 468px;
+    font-weight: 500;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media (max-width:996px){
+    .header_container{
+        flex-direction: column;
+    }
+    .header_container > *{
+        margin:10px 0;
+    }
+}
+@media (max-width:768px) {
+    .header_container{
+        display: none;
+    }
+    .main_container > .main_box_img2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+@media (max-width:576) {
+    *{
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
